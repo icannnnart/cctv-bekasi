@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Video playlist using using HTML, CSS & JavaScript">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+  <link rel="shortcut icon" type="image/png" href="https://airetech.dev/assets/fe/file/img/icon.png" type="image/x-icon">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://airetech.dev/assets/fe/file/img/icon.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="https://airetech.dev/assets/fe/file/img/icon.png" />
+    <meta name="title" content="CCTV BEKASI | AIRETECH<">
+    <meta name="description" content="Layanan CCTV Bekasi terbaik dari AIRETECH. Pantau keamanan rumah, kantor, dan area publik secara real-time dengan streaming CCTV berkualitas tinggi.">
+    <meta name="keywords" content="IT Consultant, Web Development, Software Development, Custom Web Applications, Digital Transformation, Technology Solutions, System Integration, Enterprise Solutions, Tech Consulting, IT Services, Business Automation, Web Programming, Cloud Solutions, Mobile App Development, IT Infrastructure Optimization,Konsultan IT, Pengembangan Web, Pengembangan Perangkat Lunak, Aplikasi Web Kustom, Transformasi Digital, Solusi Teknologi, Integrasi Sistem, Solusi Perusahaan, Konsultasi Teknologi, Layanan IT, Otomatisasi Bisnis, Pemrograman Web, Solusi Cloud, Pengembangan Aplikasi Mobile, Optimasi Infrastruktur IT,CCTV Bekasi, kamera keamanan Bekasi, jasa pemasangan CCTV, streaming CCTV online, CCTV real-time Bekasi, keamanan rumah Bekasi, AIRETECH CCTV">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
+    <meta name="author" content="airetech">
+
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="CCTV BEKASI | AIRETECH<" />
+    <meta property="og:description" content="Layanan CCTV Bekasi terbaik dari AIRETECH. Pantau keamanan rumah, kantor, dan area publik secara real-time dengan streaming CCTV berkualitas tinggi." />
+    <meta property="og:image" content="https://airetech.dev/assets/fe/file/img/v2/788x630.png" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:title" content="CCTV BEKASI | AIRETECH<" />
+    <meta property="twitter:description" content="Layanan CCTV Bekasi terbaik dari AIRETECH. Pantau keamanan rumah, kantor, dan area publik secara real-time dengan streaming CCTV berkualitas tinggi." />
+    <meta property="twitter:image" content="https://airetech.dev/assets/fe/file/img/v2/788x630.png" />
+
+  <title>CCTV BEKASI | AIRETECH</title>
+</head>
+
+<body>
+  <section style="min-height:0vh">
+    <h2 style="color: white;">CCTV AREA BEKASI</h2>
+  </section>
+  <section style="height:85vh">
+    <h2 class="title"></h2>
+    <div class="container">
+      <div id="video_player">
+        <video controls id="main-Video" src="" autoplay muted></video>
+      </div>
+      <div class="playlistBx">
+        <div class="header">
+          <div class="row">
+            <span class="All"></span>
+          </div>
+        </div>
+        <ul class="playlist" id="playlist"></ul>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2024 CCTV Bekasi | AIRETECH. All Rights Reserved.</p>
+      <p>Developed by <a href="https://icanart.dev" target="_blank">IcanArt</a></p>
+    </div>
+  </footer>
+  <script src="video-list.js"></script>
+  <script src="script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</body>
+
+</html>
